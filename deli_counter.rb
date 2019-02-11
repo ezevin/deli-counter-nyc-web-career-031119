@@ -25,6 +25,7 @@ def take_a_number(array, name)
     line = []
     counter = 1
     array.push(name)
+    counter += 1 
   end 
   puts "Welcome, #{name}. You are number #{array.length} in line."
 end
