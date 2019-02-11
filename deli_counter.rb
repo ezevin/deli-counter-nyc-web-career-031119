@@ -21,4 +21,5 @@ def line(deli_counter)
 end
 
 def take_a_number(array)
-  
+  line.pop(array)
+end 
