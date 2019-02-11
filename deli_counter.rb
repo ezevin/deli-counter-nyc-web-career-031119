@@ -20,6 +20,6 @@ def line(deli_counter)
   end
 end
 
-def take_a_number(array)
+def take_a_number(other_deli, array)
   line.pop(array)
 end 
