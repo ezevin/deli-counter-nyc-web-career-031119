@@ -12,6 +12,7 @@ puts "The line is currently empty."
 elsif deli_counter.length > 0
   deli_counter.each_with_index.map do |people, index| 
    line = "#{index+1}. #{people}."
+   line.map do |line|
  puts "The line is currently: #{line}"
 end 
 end
