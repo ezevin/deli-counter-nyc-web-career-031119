@@ -11,10 +11,10 @@ def line(deli_counter)
     new_count = []
     counter = 1
     deli_counter.each do |name| 
-    new_count.push("#{counter}. #{name} ")
+    new_count.push("#{counter}. #{name}")
     counter+=1
   end 
-    puts "The line is currently: #{new_count.join("")}"
+    puts "The line is currently: #{new_count.join("")}."
   else 
   puts "The line is currently empty."
   end
