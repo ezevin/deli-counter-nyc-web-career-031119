@@ -13,7 +13,7 @@ def line(deli_counter)
     deli_counter.each_with_index.map do |people, index| 
     line = "#{index+1}. #{people}."
     puts "The line is currently: #{line}"
-    line += 1
+    deli_conter.length +=1
     end
   end
   end
