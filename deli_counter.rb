@@ -23,7 +23,7 @@ end
 def take_a_number(array, name)
   if array.length >= 1 
     line = []
-    array.pop
+    name.pop
   "Welcome, #{array}. You are number #{array.length} in line."
 end 
 end
