@@ -7,7 +7,7 @@ end
 
 
 def line(other_deli)
-if katz_deli.length == 0 
+if other_deli.length == 0 
 puts "The line is currently empty."
 elsif other_deli.length > 0
   other_deli.each_with_index do |people, index| 
