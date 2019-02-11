@@ -16,5 +16,5 @@ def line(deli_counter)
     counter+=1
   end 
     puts "The line is currently: #{other_deli.join("")}"
-  
+  end
 end
