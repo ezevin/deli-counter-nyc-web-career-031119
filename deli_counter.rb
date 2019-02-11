@@ -12,7 +12,7 @@ def line(deli_counter)
   elsif deli_counter.length >=1
     counter = 1
     deli_counter.each do |people| 
-    other_deli.push("#{counter}. #{name}")
+    other_deli.push("#{counter}. #{people}")
     counter+=1
   end 
     puts "The line is currently: #{other_deli.join("")}"
