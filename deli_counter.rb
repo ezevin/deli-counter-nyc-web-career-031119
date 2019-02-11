@@ -24,7 +24,7 @@ def take_a_number(array, name)
   if array.length >= 1 
     line = []
     counter = array.length
-    array.push(name)
+    array.push(name, counter)
     counter += 1 
   end 
   puts "Welcome, #{name}. You are number #{counter} in line."
