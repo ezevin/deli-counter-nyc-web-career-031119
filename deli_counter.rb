@@ -11,7 +11,7 @@ def line(deli_counter)
   puts "The line is currently empty."
   while deli_counter.length > 0
     i = 0
-    line = deli_counter.length
+    line = deli_counter[i]
     deli_counter.each_with_index.map do |people, index| 
     line = "#{index+1}. #{people}."
       line.map do |line|
