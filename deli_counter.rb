@@ -11,7 +11,7 @@ def line(deli_counter)
     new_count = []
     counter = 1
     deli_counter.each do |name| 
-    new_count.push("#{counter}. #{name}")
+    new_count.push("#{counter}. #{name} ")
     counter+=1
   end 
     puts "The line is currently: #{new_count.join("")}"
@@ -20,3 +20,16 @@ def line(deli_counter)
   end
 end
 
+def line(array) 
+  if array.length >= 1
+    nuarray = []
+    counter = 1 
+    array.each do |name|
+      nuarray.push("#{counter}. #{name}")
+      counter += 1 
+    end 
+    puts "The line is currently: #{nuarray.join(" ")}"
+  else
+    puts "The line is currently empty."
+  end
+end
