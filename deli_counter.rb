@@ -1,7 +1,9 @@
 # Write your code here.
 
-
+def deli_counter
 katz_deli = []
+
+end
 
 
 def line(katz_deli)
