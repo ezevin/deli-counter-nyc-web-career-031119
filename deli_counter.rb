@@ -16,5 +16,4 @@ def line(deli_counter)
     deli_conter.length +=1
     end
   end
-  end
 end
