@@ -27,6 +27,7 @@ def take_a_number(array, name)
     array.push(name)
     counter += 1 
     array.each_index do |counter|
+    end
   end 
   puts "Welcome, #{name}. You are number #{counter} in line."
 end
