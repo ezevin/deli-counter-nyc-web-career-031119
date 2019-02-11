@@ -23,8 +23,8 @@ end
 def take_a_number(array, name)
   array.push(name)
   
-  puts "Welcome, #{name}. You are number #{counter} in line."
+  puts "Welcome, #{name}. You are number #{array.length} in line."
 end
 
-array.each_with_index do |name, counter|
+
     end
