@@ -7,7 +7,8 @@ if katz_deli.length == 0
 puts "The line is currently empty."
 elsif katz_deli.length > 0
   katz_deli.each do |people| 
-  puts "The line is currently: #{people.length+1}. #{people}."
+  length = katz_deli.index
+  puts "The line is currently: #{length}. #{people}."
 end 
 end
 end
