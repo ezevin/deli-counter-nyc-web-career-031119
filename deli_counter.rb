@@ -10,7 +10,7 @@ def line(deli_counter)
   if deli_counter.length == 0 
   puts "The line is currently empty."
   elsif deli_counter.length > 0
-    deli_counter.each_with_index.map do |people, index| 
+    deli_counter.each_with_index.join do |people, index| 
     line = "#{index+1}. #{people}."
     puts "The line is currently: #{line}"
     deli_conter.length +=1
