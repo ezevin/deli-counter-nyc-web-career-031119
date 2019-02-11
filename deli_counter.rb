@@ -20,7 +20,7 @@ def line(deli_counter)
   end
 end
 
-def take_a_number(array)
+def take_a_number(array, name)
   if array.length >= 1 
     line = []
     array.pop
