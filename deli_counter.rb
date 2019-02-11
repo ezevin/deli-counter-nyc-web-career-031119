@@ -23,11 +23,9 @@ end
 def take_a_number(array, name)
   if array.length >= 1 
     line = []
-  
+    counter = array.length
     array.push(name)
-    
-    array.each_index do |counter|
-    end
+    counter += 1 
   end 
   puts "Welcome, #{name}. You are number #{counter} in line."
 end
