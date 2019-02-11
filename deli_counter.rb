@@ -26,3 +26,4 @@ def take_a_number(array)
     array.pop
   "Welcome, #{array}. You are number #{array.length} in line."
 end 
+end
