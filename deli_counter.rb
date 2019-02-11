@@ -6,7 +6,6 @@ def line(katz_deli)
 if katz_deli.length == 0 
 puts "The line is currently empty."
 elsif katz_deli.length > 0
-  katz_deli.each do 
-  puts "The line is currently: #{katz_deli.join}."
+  katz_deli.each do |people| puts "The line is currently: #{people}."
 end
 end
