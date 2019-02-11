@@ -9,11 +9,12 @@ end
 def line(deli_counter)
   if deli_counter.length == 0 
   puts "The line is currently empty."
-  elsif deli_counter.length > 0
-    deli_counter.each_with_index.map do |people, index| 
-    line = "#{index+1}. #{people}."
-    puts "The line is currently: #{line}"
-    deli_conter.length +=1
-    end
-  end
+  elsif deli_counter.length >=1
+    counter = 1
+    deli_counter.each do |people| 
+    other_deli.push("#{counter}. #{name}")
+    counter+=1
+  end 
+    puts "The line is currently: #{other_deli.join("")}"
+  
 end
