@@ -26,5 +26,11 @@ def take_a_number(array, name)
 end
 
 def now_serving(array)
-  array.pop
+    if array>=1
+    array.pop
+    puts 
+    else
+    puts "There is nobody waiting to be served!"
+  end 
+end 
 
