@@ -1,7 +1,4 @@
 # Write your code here.
-def deli_counter
-end 
-
 
 def line(deli_counter)
   if  deli_counter.length >=1
