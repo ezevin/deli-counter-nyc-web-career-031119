@@ -20,3 +20,5 @@ def line(deli_counter)
   end
 end
 
+def take_a_number(array)
+  
