@@ -7,9 +7,7 @@ end
 
 
 def line(deli_counter)
-  if deli_counter.length == 0 
-  puts "The line is currently empty."
-  elsif deli_counter.length >=1
+  if  deli_counter.length >=1
     new_count = []
     counter = 1
     deli_counter.each do |name| 
@@ -17,6 +15,8 @@ def line(deli_counter)
     counter+=1
   end 
     puts "The line is currently: #{new_count.join("")}"
+  else 
+  puts "The line is currently empty."
   end
 end
 
