@@ -20,6 +20,9 @@ def line(deli_counter)
   end
 end
 
-def take_a_number(other_deli, array)
-  line.pop(array)
+def take_a_number(array)
+  if deli_counter.length >= 1 
+    line = []
+    array.pop
+  "Welcome, #{array}. You are number #{array.length} in line."
 end 
