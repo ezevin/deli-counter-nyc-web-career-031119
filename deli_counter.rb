@@ -6,7 +6,7 @@ def line(katz_deli)
 if katz_deli.length == 0 
 puts "The line is currently empty."
 elsif katz_deli.length > 0
-  katz_deli.push("#{katz_deli.length}. #{katz_deli}.")
+  katz_deli.each do 
   puts "The line is currently: #{katz_deli.join}."
 end
 end
