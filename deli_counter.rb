@@ -1,9 +1,6 @@
 # Write your code here.
-
 def deli_counter
-katz_deli = []
-other_deli = []
-end
+end 
 
 
 def line(deli_counter)
@@ -16,7 +13,7 @@ def line(deli_counter)
   end 
     puts "The line is currently: #{new_count.join(" ")}"
   else 
-  puts "The line is currently empty."
+   puts "The line is currently empty."
   end
 end
 
@@ -27,9 +24,8 @@ end
 
 def now_serving(array)
     if array.length >=1
-
      puts "Currently serving #{array[0]}."
-      array.shift
+     array.shift
     else
      puts "There is nobody waiting to be served!"
     end 
